@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace MIS_Classroom.Areas.Admin.Controllers
+namespace MIS_Classroom.Areas.Student.Controllers
 {
-
-    public class AdminController : Controller
+    [Area("Student")]
+    public class HomeController : Controller
     {
         public IActionResult Index()
         {
